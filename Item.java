@@ -9,6 +9,6 @@ public class Item {
     
     public void aplicarCupom(double desconto){
 
-        this.preco += desconto;
+        this.preco -= desconto;
     }
 }
